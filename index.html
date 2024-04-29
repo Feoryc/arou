@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matias Neto</title>
+    <title>Matias Netto</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -15,9 +15,9 @@
         .header {
             background-color: #333;
             color: #fff;
-            padding: 0px;
-            font-size: 60px;
-            text-align: left; /* Align text left */
+            padding: 20px; /* Increased padding for better visibility */
+            font-size: 30px; /* Reduced font size for better fit on mobile */
+            text-align: center; /* Center align text */
         }
         .content {
             padding: 20px;
@@ -26,15 +26,32 @@
             margin-left: 20px;
         }
         img {
-            max-width: 30%; /* Adjusted width */
+            max-width: 100%; /* Adjusted width to fit the container */
             height: auto;
             display: block;
+            margin: 0 auto; /* Center align image */
         }
         .content2 {
             padding: 10px;
             font-size: 15px;
             text-align: left;
             margin-left: 0px;
+        }
+
+        /* Media query for mobile devices */
+        @media only screen and (max-width: 600px) {
+            .header {
+                font-size: 20px; /* Adjusted font size for mobile */
+            }
+            .content {
+                padding: 10px; /* Reduced padding for better fit on mobile */
+                font-size: 16px; /* Adjusted font size for mobile */
+                margin-left: 10px; /* Adjusted margin for mobile */
+            }
+            .content2 {
+                padding: 5px; /* Reduced padding for better fit on mobile */
+                font-size: 12px; /* Adjusted font size for mobile */
+            }
         }
     </style>
 </head>
